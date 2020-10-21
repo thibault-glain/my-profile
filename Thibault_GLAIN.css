@@ -1,0 +1,106 @@
+/* Colors and fonts */
+
+body {
+	background-image: url(image/bckgrnd-1.jpeg);
+	color: grey;
+	font-family: 'Comfortaa';
+	font-style: 17px;
+	font-weight: lighter;
+}
+h1, h2, h3{
+	font-family: 'Titillium Web', sans-serif;
+}
+h1{
+	color: #142850;
+    font-size: 50px;
+    font-weight: 500;
+}
+h2{
+	 color: #27496d;
+	font-size: 37px;
+	font-weight: 200;
+}
+a{	
+	color: #00909E;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;	
+	transition: color 0.3s ease;
+	font-size: 
+}
+a:hover {
+	color: #142850
+}
+
+.container{
+	width: 700px;
+    margin: 30px auto;
+}
+
+.card-white{
+	background-color: white;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.1);
+	padding: 40px;
+	margin:20px 0px;
+	border-radius: 4px;
+	text-align:center;
+}
+.card-transparent{
+	background-color: transparent;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.1);
+	padding: 40px;
+	margin:20px 0px;
+	border-radius: 4px;
+	text-align:center;
+	color: white;
+}
+
+.card-grey{
+	background-color: lightgrey;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.1);
+	padding: 40px;
+	margin:20px 0px;
+	border-radius: 4px;
+	text-align:center;
+}
+
+.img-circle{
+	border-radius: 20%;
+}
+
+.text-hor{
+	text-align: inline;
+}
+
+
+@media (max-width: 960px) {
+ 
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
+
+/*text_align:center;
+
+
+/*
+
+ackground: white;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+*/
